@@ -1,2 +1,3 @@
-# Data-Analysis-Python-project
-Python Portfolio project
+# Data Analysis Python Project
+
+Starter data project scaffold.

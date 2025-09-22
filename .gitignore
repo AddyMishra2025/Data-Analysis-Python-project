@@ -4,22 +4,20 @@ venv/
 env/
 ENV/
 
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
+# Notebooks
 .ipynb_checkpoints
 
-# Environment variables
+# Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
 
-# Operating System files
+# OS junk
 .DS_Store
 .DS_Store?
 ._*
@@ -28,8 +26,9 @@ __pycache__/
 ehthumbs.db
 Thumbs.db
 
-# IDE files
-.vscode/
+# Editor/IDE
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -57,7 +56,7 @@ wheels/
 *.manifest
 *.spec
 
-# Unit test / coverage reports
+# Test/coverage
 htmlcov/
 .tox/
 .coverage
